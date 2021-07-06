@@ -41,7 +41,7 @@
   "dependencies": {
     "@stdlib/assert-is-date-object": "^0.0.x",
     "@stdlib/assert-is-integer": "^0.0.x",
-    "@stdlib/cli": "^0.0.x",
+    "@stdlib/cli-ctor": "^0.0.x",
     "@stdlib/fs-read-file": "^0.0.x",
     "@stdlib/math-base-special-floor": "^0.0.x"
   },
