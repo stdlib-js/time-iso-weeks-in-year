@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/time-iso-weeks-in-year",
-  "version": "0.0.0",
+  "version": "0.0.8",
   "description": "Determine the number of ISO weeks in a year according to the Gregorian calendar.",
   "license": "Apache-2.0",
   "author": {
