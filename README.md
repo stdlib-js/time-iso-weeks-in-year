@@ -31,7 +31,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isoWeeksInYear from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-iso-weeks-in-year@v0.0.9-deno/mod.js';
+import isoWeeksInYear from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-iso-weeks-in-year@deno/mod.js';
 ```
 
 #### isoWeeksInYear( \[value] )
@@ -67,7 +67,7 @@ num = isoWeeksInYear( 2017 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isoWeeksInYear from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-iso-weeks-in-year@v0.0.9-deno/mod.js';
+import isoWeeksInYear from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-iso-weeks-in-year@deno/mod.js';
 
 var v;
 var i;
