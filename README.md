@@ -31,7 +31,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isoWeeksInYear from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-iso-weeks-in-year@v0.0.9-esm/index.mjs';
+import isoWeeksInYear from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-iso-weeks-in-year@esm/index.mjs';
 ```
 
 #### isoWeeksInYear( \[value] )
@@ -72,7 +72,7 @@ num = isoWeeksInYear( 2017 );
 <body>
 <script type="module">
 
-import isoWeeksInYear from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-iso-weeks-in-year@v0.0.9-esm/index.mjs';
+import isoWeeksInYear from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-iso-weeks-in-year@esm/index.mjs';
 
 var v;
 var i;
