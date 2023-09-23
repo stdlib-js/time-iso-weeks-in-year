@@ -1,6 +1,6 @@
 {
-  "name": "@stdlib/time-iso-weeks-in-year-cli",
-  "version": "0.0.9",
+  "name": "@stdlib/time-iso-weeks-in-year",
+  "version": "0.1.0",
   "description": "Determine the number of ISO weeks in a year according to the Gregorian calendar.",
   "license": "Apache-2.0",
   "author": {
@@ -16,6 +16,19 @@
   "bin": {
     "iso-weeks-in-year": "./bin/cli"
   },
+  "main": "./lib",
+  "directories": {
+    "doc": "./docs",
+    "example": "./examples",
+    "lib": "./lib",
+    "test": "./test"
+  },
+  "types": "./docs/types",
+  "scripts": {
+    "test": "make test",
+    "test-cov": "make test-cov",
+    "examples": "make examples"
+  },
   "homepage": "https://stdlib.io",
   "repository": {
     "type": "git",
@@ -25,18 +38,38 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/cli-ctor": "^0.0.3",
-    "@stdlib/fs-read-file": "^0.0.8",
-    "@stdlib/time-iso-weeks-in-year": "0.0.9"
+    "@stdlib/assert-is-date-object": "^0.1.0",
+    "@stdlib/assert-is-integer": "^0.1.0",
+    "@stdlib/cli-ctor": "^0.1.0",
+    "@stdlib/fs-read-file": "^0.1.0",
+    "@stdlib/math-base-special-floor": "^0.1.0",
+    "@stdlib/error-tools-fmtprodmsg": "^0.1.0",
+    "@stdlib/time-current-year": "^0.1.0"
   },
   "devDependencies": {
-    "@stdlib/assert-is-browser": "^0.0.8",
-    "@stdlib/assert-is-windows": "^0.0.7",
-    "@stdlib/process-exec-path": "^0.0.7",
+    "@stdlib/assert-is-browser": "^0.1.0",
+    "@stdlib/assert-is-windows": "^0.1.0",
+    "@stdlib/process-exec-path": "^0.1.0",
+    "@stdlib/string-left-pad": "^0.0.9",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
   },
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">2.7.0"
+  },
+  "os": [
+    "aix",
+    "darwin",
+    "freebsd",
+    "linux",
+    "macos",
+    "openbsd",
+    "sunos",
+    "win32",
+    "windows"
+  ],
   "keywords": [
     "stdlib",
     "stdtime",
