@@ -27,7 +27,7 @@ var isoWeeksInYear = require( './../../dist' );
 
 // FIXTURES //
 
-var longYears = require( './../..xtures/long.json' );
+var longYears = require( './../fixtures/long.json' );
 
 
 // FUNCTIONS //
