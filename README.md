@@ -44,6 +44,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+isoWeeksInYear = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/time-iso-weeks-in-year@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/time-iso-weeks-in-year/tags). For example,
+
+```javascript
 isoWeeksInYear = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/time-iso-weeks-in-year@v0.2.1-umd/browser.js' )
 ```
 
@@ -56,7 +61,7 @@ var isoWeeksInYear = require( 'path/to/vendor/umd/time-iso-weeks-in-year/index.j
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/time-iso-weeks-in-year@v0.2.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/time-iso-weeks-in-year@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -105,7 +110,7 @@ num = isoWeeksInYear( 2017 );
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/time-iso-weeks-in-year@v0.2.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/time-iso-weeks-in-year@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
