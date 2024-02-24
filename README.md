@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isoWeeksInYear from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-iso-weeks-in-year@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/time-iso-weeks-in-year/tags). For example,
+
+```javascript
 import isoWeeksInYear from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-iso-weeks-in-year@v0.2.1-esm/index.mjs';
 ```
 
@@ -83,7 +88,7 @@ num = isoWeeksInYear( 2017 );
 <body>
 <script type="module">
 
-import isoWeeksInYear from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-iso-weeks-in-year@v0.2.1-esm/index.mjs';
+import isoWeeksInYear from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-iso-weeks-in-year@esm/index.mjs';
 
 var v;
 var i;
