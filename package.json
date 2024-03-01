@@ -44,13 +44,14 @@
     "@stdlib/fs-read-file": "^0.2.1",
     "@stdlib/math-base-special-floor": "^0.2.1",
     "@stdlib/string-format": "^0.2.1",
-    "@stdlib/time-current-year": "^0.2.1"
+    "@stdlib/time-current-year": "^0.2.1",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.1"
   },
   "devDependencies": {
     "@stdlib/assert-is-browser": "^0.2.1",
     "@stdlib/assert-is-windows": "^0.2.1",
     "@stdlib/process-exec-path": "^0.2.1",
-    "@stdlib/string-left-pad": "^0.2.0",
+    "@stdlib/string-left-pad": "^0.2.1",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
