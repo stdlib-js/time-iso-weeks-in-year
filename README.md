@@ -154,16 +154,16 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/time-iso-weeks-in-year-cli.svg
 [npm-url]: https://npmjs.org/package/@stdlib/time-iso-weeks-in-year-cli
 
-[test-image]: https://github.com/stdlib-js/time-iso-weeks-in-year/actions/workflows/test.yml/badge.svg?branch=v0.2.2
-[test-url]: https://github.com/stdlib-js/time-iso-weeks-in-year/actions/workflows/test.yml?query=branch:v0.2.2
+[test-image]: https://github.com/stdlib-js/time-iso-weeks-in-year@v0.2.2/actions/workflows/test.yml/badge.svg?branch=v0.2.2
+[test-url]: https://github.com/stdlib-js/time-iso-weeks-in-year@v0.2.2/actions/workflows/test.yml?query=branch:v0.2.2
 
-[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/time-iso-weeks-in-year/main.svg
-[coverage-url]: https://codecov.io/github/stdlib-js/time-iso-weeks-in-year?branch=main
+[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/time-iso-weeks-in-year@v0.2.2/main.svg
+[coverage-url]: https://codecov.io/github/stdlib-js/time-iso-weeks-in-year@v0.2.2?branch=main
 
 <!--
 
-[dependencies-image]: https://img.shields.io/david/stdlib-js/time-iso-weeks-in-year.svg
-[dependencies-url]: https://david-dm.org/stdlib-js/time-iso-weeks-in-year/main
+[dependencies-image]: https://img.shields.io/david/stdlib-js/time-iso-weeks-in-year@v0.2.2.svg
+[dependencies-url]: https://david-dm.org/stdlib-js/time-iso-weeks-in-year@v0.2.2/main
 
 -->
 
@@ -174,22 +174,22 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
 
-[cli-section]: https://github.com/stdlib-js/time-iso-weeks-in-year#cli
-[cli-url]: https://github.com/stdlib-js/time-iso-weeks-in-year/tree/cli
-[@stdlib/time-iso-weeks-in-year]: https://github.com/stdlib-js/time-iso-weeks-in-year/tree/main
+[cli-section]: https://github.com/stdlib-js/time-iso-weeks-in-year@v0.2.2#cli
+[cli-url]: https://github.com/stdlib-js/time-iso-weeks-in-year@v0.2.2/tree/cli
+[@stdlib/time-iso-weeks-in-year]: https://github.com/stdlib-js/time-iso-weeks-in-year@v0.2.2/tree/main
 
 [umd]: https://github.com/umdjs/umd
 [es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
 
-[deno-url]: https://github.com/stdlib-js/time-iso-weeks-in-year/tree/deno
-[deno-readme]: https://github.com/stdlib-js/time-iso-weeks-in-year/blob/deno/README.md
-[umd-url]: https://github.com/stdlib-js/time-iso-weeks-in-year/tree/umd
-[umd-readme]: https://github.com/stdlib-js/time-iso-weeks-in-year/blob/umd/README.md
-[esm-url]: https://github.com/stdlib-js/time-iso-weeks-in-year/tree/esm
-[esm-readme]: https://github.com/stdlib-js/time-iso-weeks-in-year/blob/esm/README.md
-[branches-url]: https://github.com/stdlib-js/time-iso-weeks-in-year/blob/main/branches.md
+[deno-url]: https://github.com/stdlib-js/time-iso-weeks-in-year@v0.2.2/tree/deno
+[deno-readme]: https://github.com/stdlib-js/time-iso-weeks-in-year@v0.2.2/blob/deno/README.md
+[umd-url]: https://github.com/stdlib-js/time-iso-weeks-in-year@v0.2.2/tree/umd
+[umd-readme]: https://github.com/stdlib-js/time-iso-weeks-in-year@v0.2.2/blob/umd/README.md
+[esm-url]: https://github.com/stdlib-js/time-iso-weeks-in-year@v0.2.2/tree/esm
+[esm-readme]: https://github.com/stdlib-js/time-iso-weeks-in-year@v0.2.2/blob/esm/README.md
+[branches-url]: https://github.com/stdlib-js/time-iso-weeks-in-year@v0.2.2/blob/main/branches.md
 
-[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/time-iso-weeks-in-year/main/LICENSE
+[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/time-iso-weeks-in-year@v0.2.2/main/LICENSE
 
 [iso-week-date]: https://en.wikipedia.org/wiki/ISO_week_date
 
