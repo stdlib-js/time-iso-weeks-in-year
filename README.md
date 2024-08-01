@@ -35,33 +35,14 @@ limitations under the License.
 
 > Determine the number of [ISO weeks][iso-week-date] in a year according to the [Gregorian calendar][gregorian-calendar].
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/time-iso-weeks-in-year
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
--   To use as a general utility for the command line, install the corresponding [CLI package][cli-section] globally.
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var isoWeeksInYear = require( '@stdlib/time-iso-weeks-in-year' );
+import isoWeeksInYear from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-iso-weeks-in-year@esm/index.mjs';
 ```
 
 #### isoWeeksInYear( \[value] )
@@ -96,8 +77,13 @@ num = isoWeeksInYear( 2017 );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var isoWeeksInYear = require( '@stdlib/time-iso-weeks-in-year' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import isoWeeksInYear from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-iso-weeks-in-year@esm/index.mjs';
 
 var v;
 var i;
@@ -106,72 +92,17 @@ for ( i = 0; i < 2021; i++ ) {
     v = isoWeeksInYear( i );
     console.log( 'The year %d has %d ISO weeks.', i, v );
 }
+
+</script>
+</body>
+</html>
 ```
 
 </section>
 
 <!-- /.examples -->
 
-* * *
 
-<section class="cli">
-
-## CLI
-
-<section class="installation">
-
-## Installation
-
-To use as a general utility, install the CLI package globally
-
-```bash
-npm install -g @stdlib/time-iso-weeks-in-year-cli
-```
-
-</section>
-
-<!-- CLI usage documentation. -->
-
-<section class="usage">
-
-### Usage
-
-```text
-Usage: iso-weeks-in-year [options] [year]
-
-Options:
-
-  -h,    --help                Print this message.
-  -V,    --version             Print the package version.
-```
-
-</section>
-
-<!-- /.usage -->
-
-<section class="examples">
-
-### Examples
-
-```bash
-$ iso-weeks-in-year
-<number>
-```
-
-For a specific year,
-
-```bash
-$ iso-weeks-in-year 2015
-53
-```
-
-</section>
-
-<!-- /.examples -->
-
-</section>
-
-<!-- /.cli -->
 
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
@@ -190,7 +121,7 @@ $ iso-weeks-in-year 2015
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
