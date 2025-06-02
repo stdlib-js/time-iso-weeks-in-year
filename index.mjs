@@ -1,4 +1,0 @@
-// Copyright (c) 2025 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-/// <reference types="./index.d.ts" />
-import e from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-date-object@v0.2.2-esm/index.mjs";import{isPrimitive as t}from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-integer@v0.2.2-esm/index.mjs";import s from"https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-fmtprodmsg@v0.2.2-esm/index.mjs";import r from"https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-floor@v0.2.3-esm/index.mjs";import i from"https://cdn.jsdelivr.net/gh/stdlib-js/time-current-year@v0.2.2-esm/index.mjs";function n(e){return(e+r(e/4)-r(e/100)+r(e/400))%7}function m(r){var m;if(arguments.length)if(e(r))m=r.getFullYear();else{if(!t(r))throw new TypeError(s("1QJDx",r));m=r}else m=i();return 4===n(m)||3===n(m-1)?53:52}export{m as default};
-//# sourceMappingURL=index.mjs.map
