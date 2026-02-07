@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/time-iso-weeks-in-year",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Determine the number of ISO weeks in a year according to the Gregorian calendar.",
   "license": "Apache-2.0",
   "author": {
@@ -40,16 +40,16 @@
   "dependencies": {
     "@stdlib/assert-is-date-object": "^0.2.2",
     "@stdlib/assert-is-integer": "^0.2.2",
-    "@stdlib/cli-ctor": "^0.2.2",
-    "@stdlib/fs-read-file": "^0.2.2",
-    "@stdlib/math-base-special-floor": "^0.2.3",
-    "@stdlib/string-format": "^0.2.2",
-    "@stdlib/time-current-year": "^0.2.2",
-    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
+    "@stdlib/cli-ctor": "^0.2.3",
+    "@stdlib/fs-read-file": "^0.2.3",
+    "@stdlib/math-base-special-floor": "^0.2.4",
+    "@stdlib/string-format": "^0.2.3",
+    "@stdlib/time-current-year": "^0.2.3",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.3"
   },
   "devDependencies": {
     "@stdlib/assert-is-browser": "^0.2.2",
-    "@stdlib/assert-is-windows": "^0.2.2",
+    "@stdlib/assert-is-windows": "^0.2.3",
     "@stdlib/process-exec-path": "^0.2.2",
     "@stdlib/string-left-pad": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
