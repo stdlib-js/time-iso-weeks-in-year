@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-05-27)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`3b5ee6b`](https://github.com/stdlib-js/stdlib/commit/3b5ee6b31ceffc0b8b9d5c96b982c7f46978565a) - **docs:** document `Date` input and add Notes section in `time/iso-weeks-in-year` [(#12313)](https://github.com/stdlib-js/stdlib/pull/12313) _(by Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.3">
 
 ## 0.2.3 (2026-02-07)
