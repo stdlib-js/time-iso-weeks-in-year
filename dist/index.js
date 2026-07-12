@@ -1,5 +1,5 @@
-"use strict";var s=function(r,e){return function(){return e||r((e={exports:{}}).exports,e),e.exports}};var n=s(function(p,a){
-var u=require('@stdlib/assert-is-date-object/dist'),o=require('@stdlib/assert-is-integer/dist').isPrimitive,v=require('@stdlib/error-tools-fmtprodmsg/dist'),i=require('@stdlib/math-base-special-floor/dist'),f=require('@stdlib/time-current-year/dist'),c=52,g=53;function t(r){var e=r+i(r/4)-i(r/100)+i(r/400);return e%7}function q(r){var e;if(arguments.length)if(u(r))e=r.getFullYear();else if(o(r))e=r;else throw new TypeError(v('1QJDx',r));else e=f();return t(e)===4||t(e-1)===3?g:c}a.exports=q
-});var l=n();module.exports=l;
+"use strict";var u=function(e,r){return function(){try{return r||e((r={exports:{}}).exports,r),r.exports}catch(s){throw (r=0, s)}};};var n=u(function(Y,a){
+var o=require('@stdlib/assert-is-date-object/dist'),v=require('@stdlib/assert-is-integer/dist').isPrimitive,f=require('@stdlib/error-tools-fmtprodmsg/dist'),i=require('@stdlib/math-base-special-floor/dist'),c=require('@stdlib/time-current-year/dist'),g=52,q=53;function t(e){var r=e+i(e/4)-i(e/100)+i(e/400);return r%7}function l(e){var r;if(arguments.length)if(o(e))r=e.getFullYear();else if(v(e))r=e;else throw new TypeError(f('1QJDx',e));else r=c();return t(r)===4||t(r-1)===3?q:g}a.exports=l
+});var m=n();module.exports=m;
 /** @license Apache-2.0 */
 //# sourceMappingURL=index.js.map
